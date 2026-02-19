@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock News Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📈 Stock News Search</h1>
+            <p class="subtitle">Search for the newest and most impactful stock news</p>
+        </header>
+
+        <div class="search-section">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Enter stock symbol or company name (e.g., AAPL, Tesla)" 
+                autocomplete="off"
+            >
+            <button id="searchButton">Search</button>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Searching for news...</p>
+        </div>
+
+        <div id="results" class="results"></div>
+    </div>
+
+    <footer>
+        <p>Built with ❤️ for stock market enthusiasts | Demo Application</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
