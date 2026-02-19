@@ -1,6 +1,6 @@
 # 📈 Stock News Search App
 
-A simple web application to search for the newest and most impactful stock news.
+A comprehensive web application to search for the newest and most impactful stock news.
 
 ## Features
 
@@ -9,6 +9,8 @@ A simple web application to search for the newest and most impactful stock news.
 - ⏰ Time-stamped news articles
 - 📱 Responsive design for mobile and desktop
 - 🎨 Modern, clean user interface
+- 🔒 Implemented security enhancements
+- 🚀 Feature improvements for performance
 
 ## Tech Stack
 
@@ -19,25 +21,29 @@ A simple web application to search for the newest and most impactful stock news.
 ## Installation
 
 1. Clone the repository:
-```bash
-git clone <repository-url>
-cd stock-news-app
-```
+
+    ```bash
+    git clone <repository-url>
+    cd stock-news-app
+    ```
 
 2. Install dependencies:
-```bash
-npm install
-```
+
+    ```bash
+    npm install
+    ```
 
 3. Start the server:
-```bash
-npm start
-```
+
+    ```bash
+    npm start
+    ```
 
 4. Open your browser and navigate to:
-```
-http://localhost:3000
-```
+
+    ```
+    http://localhost:3000
+    ```
 
 ## Usage
 
@@ -56,6 +62,7 @@ Search for stock news.
 - `query` (required): Stock symbol or company name
 
 **Response:**
+
 ```json
 {
   "success": true,
@@ -80,29 +87,10 @@ This is a test/demo application. The current implementation uses mock data for t
 
 To make this production-ready, you would need to:
 
-1. **Integrate a Real News API**:
-   - [NewsAPI](https://newsapi.org/) - General news API
-   - [Alpha Vantage](https://www.alphavantage.co/) - Financial data and news
-   - [Finnhub](https://finnhub.io/) - Stock market data and news
-   - [Polygon.io](https://polygon.io/) - Real-time and historical market data
-
-2. **Add Features**:
-   - Stock price charts
-   - Sentiment analysis
-   - Email alerts for specific stocks
-   - Historical news archive
-   - Multiple language support
-
-3. **Security Enhancements**:
-   - Rate limiting
-   - API key management
-   - Input validation
-   - CORS configuration
-
-4. **Performance**:
-   - Caching layer (Redis)
-   - Database for storing news (MongoDB/PostgreSQL)
-   - CDN for static assets
+- Integrate real News API providers
+- Implement additional features like stock price charts and sentiment analysis
+- Ensure all security enhancements are applied
+- Optimize performance with caching and database solutions
 
 ## License
 
