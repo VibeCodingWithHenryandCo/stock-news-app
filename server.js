@@ -18,8 +18,8 @@ const PORT = process.env.PORT || 3000;
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY;
 const CACHE_TTL = parseInt(process.env.CACHE_TTL_SECONDS) || 300;
 
-// Initialize database
-initDatabase();
+// Database is auto-initialized when the module loads (see src/database.js)
+// No need to call initDatabase() here
 
 // In-memory cache for API responses
 const apiCache = new NodeCache({ stdTTL: CACHE_TTL });

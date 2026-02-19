@@ -33,3 +33,9 @@ Thumbs.db
 # Build output
 dist/
 build/
+
+# Database
+data/
+*.db
+*.db-shm
+*.db-wal

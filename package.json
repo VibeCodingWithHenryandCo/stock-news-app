@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "test": "node test-db.js",
+    "test:db": "node test-db.js"
   },
   "keywords": [
     "stock",

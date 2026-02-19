@@ -77,6 +77,9 @@ function initDatabase() {
   console.log('✅ Database initialized successfully');
 }
 
+// Initialize database immediately to ensure tables exist before preparing statements
+initDatabase();
+
 // User operations
 const userQueries = {
   create: db.prepare(`
