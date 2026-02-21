@@ -6,6 +6,10 @@ node_modules/
 .env.local
 .env.*.local
 
+# Git credentials (NEVER commit these)
+.git-credentials
+.netrc
+
 # Logs
 logs
 *.log
