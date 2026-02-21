@@ -38,6 +38,10 @@ Thumbs.db
 dist/
 build/
 
+# Test coverage
+coverage/
+*.lcov
+
 # Database
 data/
 *.db
